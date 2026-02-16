@@ -47,7 +47,9 @@ npm run build
 ```
 it will generate dist folder in root directory and will place all distributeable files
 ## Test
-To run the tests
+The project utilizes Jest as the primary test runner and ts-jest for TypeScript execution,
+To run the tests:
+
 ```bash
 npm test
 ```
