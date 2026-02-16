@@ -20,17 +20,17 @@ export class Robot {
         // }
     }
 
-    // rotate right 90 degrees
+    // rotate right 90 degrees (clock-wise)
     rotateRight(): void {
         this.rotate(1);
     }
 
-    // rotate left 90 degrees
+    // rotate left 90 degrees (counter-clockwise)
     rotateLeft(): void {
         this.rotate(-1);
     }
 
-    // move forward 1 step to the current direction
+    // move forward 1 tile to the current direction
     move(): void {
         let nextRow = this.row;
         let nextCol = this.col;
